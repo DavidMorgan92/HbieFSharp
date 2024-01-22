@@ -1,0 +1,26 @@
+{
+	"name": "Test Engine",
+	"pipelines": [
+		{
+			"name": "Pipeline 1",
+			"components": [
+				{
+					"name": "Component 1",
+					"definition": {
+						"wait": {
+							"seconds": 1
+						}
+					}
+				},
+				{
+					"name": "Component 2",
+					"definition": {
+						"print": {
+							"message": "hello world"
+						}
+					}
+				}
+			]
+		}
+	]
+}
